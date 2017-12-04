@@ -1,0 +1,19 @@
+{
+  "name": "customer-cli",
+  "version": "1.0.0",
+  "description": "This is a command line interfaces project to learn how to create cli in nodejs",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Cuevas",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.12.2",
+    "inquirer": "^4.0.1",
+    "mongoose": "^4.13.6"
+  }
+}
